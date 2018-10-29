@@ -142,10 +142,6 @@ img {
   display: inline-block;
   margin-right: 11px;
 }
-#root {
-  position: absolute;
-  left: -10000px;
-}
 .devices {
   display: flex;
   justify-content: flex-start;
@@ -164,9 +160,6 @@ img {
   position: absolute;
   top: 0;
   right: 40px;
-}
-.filter__select {
-  display: none;
 }
 .filter__item-label {
   display: inline-block;
@@ -598,9 +591,6 @@ html {
 }
 .weather__item_cloud-drizzle {
   background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
-}
-.stats {
-  opacity: 0;
 }
 .panel__icon {
   width: 24px;

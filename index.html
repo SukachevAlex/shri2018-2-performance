@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="page">
-<div id="root"></div>
 
 <div class="page__wrapper">
     <div class="page__wrapper-content">
@@ -32,14 +31,6 @@
                     </li>
                 </ul>
             </nav>
-            <div class="menu__icon">
-                <svg width="16" height="14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <defs>
-                        <path d="M0 3.326a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.681A.995.995 0 0 1 15 5H1c-.552 0-1-.44-1-.993v-.68zM0 8.66a.995.995 0 0 1 1-.993h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .993H1c-.552 0-1-.44-1-.993v-.68zm0 5.333A.995.995 0 0 1 1 13h14c.552 0 1 .44 1 .993v.68a.995.995 0 0 1-1 .994H1c-.552 0-1-.44-1-.993v-.681z" id="a"/>
-                    </defs>
-                    <use fill="#333" xlink:href="#a" transform="translate(0 -2)" fill-rule="evenodd"/>
-                </svg>
-            </div>
         </header>
         <main class="content">
 
@@ -206,28 +197,9 @@
             </div>
 
             <div class="content__item content__item_devices">
-        <span class="content__item-header content__item-header_devices">
-          Избранные устройства
-        </span>
-
-                <div class="filter__select">
-                    <button class="filter__select-button" type="button">
-                        <span class="button__text">Все</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6">
-                            <path d="M10.3 0L5.5 4.7.7 0 0 .7 5.5 6 11 .7z"/>
-                        </svg>
-                    </button>
-                    <div class="filter__select-popup" aria-hidden="true">
-                        <div class="filter__select-menu">
-                            <div class="filter__select-item filter__select-item_checked" data-group="all">Все</div>
-                            <div class="filter__select-item" data-group="kitchen">Кухня</div>
-                            <div class="filter__select-item" data-group="room">Зал</div>
-                            <div class="filter__select-item" data-group="lamp">Лампочки</div>
-                            <div class="filter__select-item" data-group="cam">Камеры</div>
-                        </div>
-                    </div>
-                </div>
-
+                <span class="content__item-header content__item-header_devices">
+                Избранные устройства
+                </span>
                 <input class="filter__item-radio filter__item_devices filter__item-radio_all" type="radio" name="filter" id="all" checked>
                 <label class="filter__item-label filter__item_devices" for="all">Все</label>
                 <input class="filter__item-radio filter__item_devices filter__item-radio_kitchen" type="radio" name="filter" id="kitchen">
@@ -384,8 +356,6 @@
             <div class="button button_size_l modal__button modal_close">Закрыть</div>
         </div>
     </div>
-</div>
-<div class="stats">
 </div>
 
 <div class="modal modal_knob">
