@@ -13,4 +13,5 @@
 | 2 | Удалил бутстрап                                                 |     81.03      |
 | 3 | Удалил подключение react и  babel, заменил генерацию одно блока |     142.92     |
 | 4 | Удалил неиспользуемый код из script.js                          |     161.40     |
-| 5 | Удалил root, menu_icon,filter__select, stats                    |                |
+| 5 | Удалил root, menu_icon,filter__select, stats                    |     160.52     |
+| 6 | Удалил baner.js                                                 |                |
