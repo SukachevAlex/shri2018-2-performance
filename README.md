@@ -16,3 +16,4 @@
 | 5 | Удалил root, menu_icon,filter__select, stats                    |     160.52     |
 | 6 | Удалил baner.js                                                 |     158.23     |
 | 7 | Удалил main-bg.png, изменил формат sh, banner на webp           |     211.54     |
+| 7 | Изменил favicon на png                                          |                |
