@@ -25,6 +25,10 @@
 	src: local('PT Sans Narrow Bold'), url('PTN77F_W.woff') format('woff');
 }
 
+.main__greeting {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 img {
   max-width: 100%;
 }
