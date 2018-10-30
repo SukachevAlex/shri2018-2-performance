@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preload" as="image" href="assets/logo.webp">
     <link rel="preload" as="image" href="assets/sh.webp">
+    <link rel="preload" as="image" href="assets/banner.webp">
     <script src="scripts.js" async></script>
-    <script src="modal.js" async></script>
 </head>
 <body class="page">
 
@@ -79,7 +79,12 @@
                                 </div>
                             </div>
                             <div class="panel main__panel panel_device panel_out_bot">
-                                <a target=_blank href="http://ya.ru"><img src="assets/banner.webp"></a>
+                                <a target=_blank href="http://ya.ru">
+                                    <picture>
+                                        <source srcset="assets/banner.webp" type="image/webp">
+                                            <img src="assets/banner.jpg">
+                                    </picture>
+                                </a>
                             </div>
                         </div>
                     </div>
