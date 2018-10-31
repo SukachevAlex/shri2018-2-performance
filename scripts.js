@@ -1,3 +1,9 @@
+const fontPTSans = new FontFaceObserver('PT Sans');
+const fontPTSansNarrow = new FontFaceObserver('PT Sans Narrow');
+
+fontPTSans.load();
+fontPTSansNarrow.load();
+
 const rangeSLider = document.querySelector('.adjust-bar.adjust-bar_theme_temp');
 
 rangeSLider.oninput = function() {
