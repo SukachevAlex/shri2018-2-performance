@@ -613,7 +613,7 @@ html {
   padding-right: 31px;
 }
 .weather__item_cloud-drizzle {
-  background: url("assets/cloud-drizzle.svg") 100% 70%/26px no-repeat;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAS1BMVEVHcEw1NTUzMzMzMzMzMzMzMzMzMzMzMzM3NzdAQEAzMzMzMzMzMzNQUFA0NDQzMzM0NDQzMzMzMzM1NTU0NDQzMzMzMzMzMzM9PT2T3TlPAAAAGXRSTlMAJm+iy+ftwhwJ/9NoBU7zRPp+iDndt5ERQtlMpAAAAY1JREFUeAGtlQWWg1AMRYNDcGf/Gx3Lb98hE0hH7lHkfqIt/QNRnKRZnmdFEpevGVWcMuC6aV2lbTJWZI3jlCkbFLdBdjmb9MONM/IFY+c79TSUVVUOc/20BtuJchaKBTeHgoXczis8HlWx4nBWapU+DjkvpFiC1Rg9zeBoS3LNKtI0OM4OwnomdSrIJA2hr9sUEYjk9mBLA4NtURHUdMHKDPZHcgl/Ml1J03kWg5UiOouyP1vSMyn49TQv6XiKkD6RW86+HcOcs/BVDfl8RR7lFmr4QnigLcSKnr0dyOeQCOPbkrdzls0tgV3iu23u/PlgJrDwJyvGaCGNZJsRKGUp0V1jYOU0Q1Ljj0wsaQjhYQnHRWeiJRQCW5gvKhMtlTmj0G0KC69CN5qLI7iAhECNMTr9WOaQvjW3wcDC0l9SxFgNMPSSEzLRW48lBEfTlObwCI+sDzIJmSgSiU3dd/Rjw98DcKf8MCPzp9wFxXfwptzP5FXJmXI/E+g+9pS76Cn/z0L/Q0u9TJzm/i/v+pcl3XCpk3sAAAAASUVORK5CYII=") 100% 70%/26px no-repeat;
 }
 .panel__icon {
   width: 24px;
